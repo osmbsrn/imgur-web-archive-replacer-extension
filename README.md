@@ -1,0 +1,1 @@
+# imgur-web-archive-replacer-extension
