@@ -1,0 +1,21 @@
+{
+    "description": "An easy way to replace imgur urls' with web archive url to be able to view images when imgur is blocked.",
+    "manifest_version": 2,
+    "name": "Replace ImgUr with WebArchive",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "https://*/*",
+        "http://*/*"
+    ],
+    "browser_action": {
+        "default_icon": "icon48.png"
+    },
+    "background": {
+        "scripts": [
+            "chrome-app.js"
+        ]
+    },
+    "update_url": "https://clients2.google.com/service/update2/crx",
+    "version": "1.0.0"
+}
